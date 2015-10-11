@@ -7,8 +7,10 @@
 
 // Our variables
 $base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.875;
+$base-font-size:   12px;
+// $small-font-size:  $base-font-size * 0.875;
+$small-font-size:  10px;
+$large-font-size:  14px;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
@@ -27,6 +29,21 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li { display: inline-block; }
+
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
+}
 
 
 // Using media queries with like this:
