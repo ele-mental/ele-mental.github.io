@@ -1,0 +1,13 @@
+# Site settings
+title: ele_mental web project
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  this is the page covering the ele_mental web modernization project
+  expect to see experiments and occasionally announcements
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://ele-mental.github.io" # the base hostname & protocol for your site
+#twitter_username: jekyllrb
+#github_username:  
+
+# Build settings
+markdown: kramdown
